@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='programming_assignment1'?>
+
+<!-- NOTES ABOUT THIS CODE: Math functions are grouped (i.e. tagged) by the type of function (addition, subtraction, etc.) and calculations will only be done within that function tagging. The xsl is specifically looking for the function name tag and then the specific letters (i.e. tags) within that function. This makes the tagging in xml rather detailed but restricts the scope of the xsl and will eliminate possible future problems of the xsl trying to run calculations when the document contains a string of letters that do not require calculation. -->
+
+<document>
+    
+    <addition>
+        <a>5</a>
+        <b>3.2</b>
+        <c>9</c>
+    </addition>
+    
+    <subtraction>
+        <e>6</e>
+        <f>3.3</f>
+        <g>1.6</g>
+    </subtraction>
+    
+    <multiplication>
+        <i>7</i>
+        <j>3.4</j>
+        <k>8</k>
+    </multiplication>   
+   
+    <division>
+        <m>8</m>
+        <n>5</n>
+        <o>2</o>
+    </division>   
+    
+    <squareroot>
+        <q>6</q>
+    </squareroot>
+  
+    <exponent>
+        <x>2</x>
+        <y>7</y>
+    </exponent>  
+    
+</document>
